@@ -12,16 +12,16 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <Link href="/me">my site!</Link>
+          Hi👋, I'm <Link href="/me">Lucas França!</Link>
         </h1>
 
-        <p className={styles.description}>
+        {/* <p className={styles.description}>
           {' '}
           <code className={styles.code}>new Promise()</code>
-        </p>
+        </p> */}
 
         <h2 className={styles.description}>
-          In building... Below are some links about me:
+          Website in building... Below are some links about me:
         </h2>
 
         <div className={styles.grid}>
