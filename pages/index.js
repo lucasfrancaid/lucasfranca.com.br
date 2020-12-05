@@ -16,9 +16,13 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-          In building... {' '}
+          {' '}
           <code className={styles.code}>new Promise()</code>
         </p>
+
+        <h2 className={styles.description}>
+          In building... Below are some links about me:
+        </h2>
 
         <div className={styles.grid}>
           <a href="https://github.com/lucasfrancaid" target="_blank" className={styles.card}>
