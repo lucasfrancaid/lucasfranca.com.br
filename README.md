@@ -1,2 +1,3 @@
-# lucasfranca.com.br
-My site
+# My website to be built.
+
+## Stack: NextJs.
