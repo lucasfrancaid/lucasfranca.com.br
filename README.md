@@ -1,3 +1,8 @@
 # My website to be built.
+Stack: NextJs.
 
-## Stack: NextJs.
+## Setting up
+```bash
+yarn
+yarn dev
+```
