@@ -37,12 +37,12 @@ export default function Home() {
 
           <a href="https://www.linkedin.com/in/lucasfrancaid/" target="_blank" className={styles.card}>
             <h3>LinkedIn &rarr;</h3>
-            <p>My professional Social Media!</p>
+            <p>My professional Social Media, connect with me.</p>
           </a>
 
-          <a href="https://www.instagram.com/lucasfrancaid/" target="_blank" className={styles.card}>
-            <h3>Instagram &rarr;</h3>
-            <p>Post of my personal life.</p>
+          <a href="https://www.youtube.com/channel/UCwCM-3HpHVXQQULPg1mCo2A" target="_blank" className={styles.card}>
+            <h3>Youtube &rarr;</h3>
+            <p>Videos about tech, programming and maybe other topics.</p>
           </a>
         </div>
       </main>
