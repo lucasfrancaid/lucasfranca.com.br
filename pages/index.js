@@ -8,7 +8,8 @@ export default function Home() {
       <Head>
         <title>Home | Lucas França</title>
         <link rel="icon" href="/favicon.ico" />
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta property="og:title" content="Lucas França | Software Developer" key="title" />
+        <meta property="og:image" content="https://lucasfrancaid.com.br/lf.png" />
       </Head>
 
       <main className={styles.main}>
