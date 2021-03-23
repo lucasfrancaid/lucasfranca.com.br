@@ -9,7 +9,6 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>{siteConfig.title}</title>
-        <link rel="icon" href="/favicon.ico" />
         <meta property="og:url" content={siteConfig.url} key="og_url" />
         <meta property="og:title" content={siteConfig.title} key="og_title" />
         <meta property="og:description" content={siteConfig.description} key="og_description" />
