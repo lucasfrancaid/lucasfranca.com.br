@@ -3,13 +3,19 @@ import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
+  const myBio = `
+    Software Developer since 2019.
+    I can develop a system from zero to deploy.
+    Able to use many technologies, in special Python, NodeJS, FastAPI, Django, React, Vue, AWS and Linux.
+  `
+
   return (
     <div className={styles.container}>
       <Head>
-        <title>Home | Lucas França</title>
+        <title>Lucas França | Software Developer</title>
         <link rel="icon" href="/favicon.ico" />
-        <meta property="og:title" content="Lucas França | Software Developer" key="title" />
-        <meta property="og:image" content="https://lucasfrancaid.com.br/lf.png" key="image" />
+        <meta property="og:description" content={myBio} key="ogdescription" />
+        <meta property="og:image" content="https://lucasfrancaid.com.br/me.png" key="ogimage" />
       </Head>
 
       <main className={styles.main}>
