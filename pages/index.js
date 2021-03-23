@@ -1,21 +1,19 @@
 import Head from 'next/head'
 import Link from 'next/link'
+import mySEO from '../config/mySEO'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
-  const myBio = `
-    Software Developer since 2019.
-    I can develop a system from zero to deploy.
-    Able to use many technologies, in special Python, NodeJS, FastAPI, Django, React, Vue, AWS and Linux.
-  `
-
+  const siteConfig = mySEO()
   return (
     <div className={styles.container}>
       <Head>
-        <title>Lucas França | Software Developer</title>
+        <title>{siteConfig.title}</title>
         <link rel="icon" href="/favicon.ico" />
-        <meta property="og:description" content={myBio} key="ogdescription" />
-        <meta property="og:image" content="https://lucasfrancaid.com.br/me.png" key="ogimage" />
+        <meta property="og:url" content={siteConfig.url} key="og_url" />
+        <meta property="og:title" content={siteConfig.title} key="og_title" />
+        <meta property="og:description" content={siteConfig.description} key="og_description" />
+        <meta property="og:image" content={`${siteConfig.url}thumbnail.png`} key="og_image" />
       </Head>
 
       <main className={styles.main}>
