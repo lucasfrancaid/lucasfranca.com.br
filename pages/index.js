@@ -8,17 +8,13 @@ export default function Home() {
       <Head>
         <title>Home | Lucas França</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
           Hi👋, I'm <Link href="/me">Lucas França!</Link>
         </h1>
-
-        {/* <p className={styles.description}>
-          {' '}
-          <code className={styles.code}>new Promise()</code>
-        </p> */}
 
         <h2 className={styles.description}>
           Website in building... Below are some links about me:

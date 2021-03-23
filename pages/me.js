@@ -6,9 +6,9 @@ export default function Me() {
 	return (
 		<div className={styles.container}>
 			<Head>
-        <title>Me | Lucas França</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+				<title>Me | Lucas França</title>
+				<link rel="icon" href="/favicon.ico" />
+			</Head>
 			<main className={styles.main}>
 				<h1 className={styles.title}>
 					<Link href="/">
